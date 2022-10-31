@@ -17,8 +17,8 @@ The picture of this example:
 Explanation: This command search the empty file in the directory, and since we don't have any empty files in it, the output shows nothing. It is useful because we can instanty know is there any empty file in the directory.
 
 # less command
-1. Example: ```less -N technical/911report/preface.txt```<br> 
-The output:<br>
+1. Example: ```less - technical/911report/preface.txt```<br> 
+The output: Becasue the output might be too long so we start from line 67.<br>
 ```
      67                 built. They have given good advice, and faithfully carried out our guidance. They
      68                 have been superb. We thank the Congress and the President. Executive branch agencies
@@ -182,8 +182,7 @@ The picture of the this example:
 ![Image](less_12.png)
 Explanation: This command makes us don't need to go to another "less" page to see what's inside the file. It is useful becasue it can let people see the input and output together, and for me it is more clear.
 
-3.
-Example: ```less -s technical/911report/preface.txt ```<br> 
+3. Example: ```less -s technical/911report/preface.txt ```<br> 
 The output:
 ```
             As we complete our final report, we want to begin by thanking our fellow
@@ -266,7 +265,7 @@ The output:
 The picture of the this example:
 ![Image](less_10.png)
 
-Explanation: This command help us find how many in the file contains the string we want to find and print out the number. It is useful becuse it can help us know how many lines are there contains the string we want to find.
+Explanation: This command help us find how many in the file contains the string we want to find and print out the number. It is useful becuse it can help us know how many lines are there contains the string we want to find.<br>
 3. Example: ```grep -w "reported" technical/911report/chapter-2.txt```<br> 
 The output:
 ```
