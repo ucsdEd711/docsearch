@@ -1,4 +1,4 @@
-# Lab 3 report
+# Week 5 lab report
 # find command
 Example1: ```find ./technical -name chapter-1.txt```<br> 
 
