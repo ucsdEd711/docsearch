@@ -8,7 +8,8 @@ The picture of the this example: <br>
 ![Image](find_1.png)
 
 Explanation: What this command does is finding a specific file in the directory and print out all the path. In this example we search chapter-1.txt and get ./technical/911report/chapter-1.txt, so we know it is in the 911report. It is useful because we can know where the file we want to search belong.<br> 
-2.Example: ```find ./technical  -name chapter-1.txt -exec rm -i {} \;```<br>
+
+2. Example: ```find ./technical  -name chapter-1.txt -exec rm -i {} \;```<br>
 
 The output: ```remove ./technical/911report/chapter-1.txt? y```<br> 
 
@@ -16,7 +17,8 @@ The picture of this example:
 ![Image](find_2.png)
 
 Explanation: This command let us remove a specific file in the directory and it will confirm again with you, when you type 'y' or 'Y' you will delete it. And finally we search if the file chapter-1.txt is still there using ```find ./technical -name chapter-1.txt``` , and it disappeared already. This is useful becasue we can delete some files we don't need in the terminal.<br>
-3.Example: ```find ./technical  -empty```<br>
+
+3. Example: ```find ./technical  -empty```<br>
 The output:<br>
 The picture of this example:
 ![Image](find_3.png)
