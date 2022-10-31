@@ -25,7 +25,7 @@ The picture of this example:
 Explanation: This command search the empty file in the directory, and since we don't have any empty files in it, the output shows nothing. It is useful because we can instanty know is there any empty file in the directory.
 
 # less command
-1. Example: ```less - technical/911report/preface.txt```<br> 
+1. Example: ```less -N technical/911report/preface.txt```<br> 
 
 The output: Becasue the output might be too long so we start from line 67.<br>
 ```
