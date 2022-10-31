@@ -1,5 +1,5 @@
 # Week 5 lab report
-# find command
+# find commands
 Example1: ```find ./technical -name chapter-1.txt```<br> 
 
 The output: ```./technical/911report/chapter-1.txt```<br> 
@@ -24,7 +24,7 @@ The picture of this example:
 ![Image](find_3.png)
 Explanation: This command search the empty file in the directory, and since we don't have any empty files in it, the output shows nothing. It is useful because we can instanty know is there any empty file in the directory.
 
-# less command
+# less commands
 Example1: ```less -N technical/911report/preface.txt```<br> 
 
 The output: Becasue the output might be too long so we start from line 67.<br>
@@ -259,7 +259,7 @@ Explanation:
 This command can merge consecutive blank lines into one single blank line.
 It is useful becasue sometimes a file might contains a lot of consecutive blank lines, so if it can merge into one it will be easier to read.
 
-# grep command
+# grep commands
 Example1: ```grep -i "In FebruarY 1998, the 40-year-old Saudi exile Usama Bin LADIN and a" technical/911report/chapter-2.txt```<br> 
 
 The output:
